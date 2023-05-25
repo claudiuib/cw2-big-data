@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Crypto Spy</title>
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <h1 class="page-name">Crypto Spy<img src="./icons/spy.png"></h1>
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="./pages/sentiment-analysis.html">Sentiment Analysis</a>
+          
+
+        </nav>
+    </header>
+    <main>
+        <h1 class=" index-h1" >Cryptocurrency List</h1>
+       <!-- menu crypto selection -->
+        <div id="output"></div>
+        <select id="cryptoName">
+            <option value="BTC">Bitcoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="BUSD">Binance USD</option>
+            <option value="DOGE">Dogecoin</option>
+            <option value="XRP">XRP</option>
+            <!-- for demo purpose only -->
+            <!-- <option value="SHIB">SHIB COIN</option> -->
+        </select>
+        <button onclick="updateChart()">Update Chart</button>
+
+        <div id="chart"></div>
+      
+
+    </main>
+   <!-- footer -->
+    <footer>
+        <p>&copy; 2023 Crypto Spy</p>
+    </footer>
+    
+   <script src="./websocket-js/websocket-crypto.js"></script>
+
+</html>
