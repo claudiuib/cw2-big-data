@@ -19,3 +19,4 @@ The results from the training job will be mean, quantiles 0_1, quantiles 0_9, an
 samples. After that, the AWS lambda function will pin the endpoint and APi synthetic 
 data link and will save the predictions in the Plotly Line Graph.
 
+![crypto_project](https://github.com/claudiuib/cw2-big-data/assets/95749647/cfbfdd31-ab8f-4f3a-a0aa-8ba17eb60b45)
