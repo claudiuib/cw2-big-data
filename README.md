@@ -18,6 +18,5 @@ synthetic data is trained with Aws Deep AR built-in algorithm – Times Series F
 The results from the training job will be mean, quantiles 0_1, quantiles 0_9, and 
 samples. After that, the AWS lambda function will pin the endpoint and APi synthetic 
 data link and will save the predictions in the Plotly Line Graph.
-
-![crypto_project](https://github.com/claudiuib/cw2-big-data/assets/95749647/cfbfdd31-ab8f-4f3a-a0aa-8ba17eb60b45)
-![crypto_predictions](https://github.com/claudiuib/cw2-big-data/assets/95749647/8bae89ed-5201-4334-85b5-1c9336543428)
+![crypto_project](https://github.com/claudiuib/cw2-big-data/assets/95749647/845ab803-f3b3-4a20-ad4c-289af52b7965)
+![crypto_predictions](https://github.com/claudiuib/cw2-big-data/assets/95749647/8654c7fb-9941-4807-89e6-9245e75707e4)
